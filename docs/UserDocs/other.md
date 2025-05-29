@@ -1,12 +1,9 @@
 ---
-id: other
-title: 其他
+id: mcft1
 sidebar_label: 其他
 ---
 
-# 第六节：其他
-
-#### MCFT使用教程`测试版`
+# MCFT使用教程`测试版`
 
 ## 🌟 前置准备须知
 
