@@ -1,0 +1,17 @@
+xiaoshen:
+  name: 小沈
+  title: VRCub腐竹，沈权代言
+  url: https://vrcub.net
+  image_url: https://github.com/yangshun.png
+  page: true
+  socials:
+    github: xioashen
+
+dream-pep:
+  name: dream_pep
+  title: 文档编辑者，网页维护
+  url: https://dream-pep.cn
+  image_url: https://github.com/dream-pep.png
+  socials:
+    github: slorber
+    newsletter: https://thisweekinreact.com
