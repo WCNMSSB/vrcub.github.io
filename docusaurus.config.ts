@@ -113,6 +113,11 @@ const config: Config = {
     },
     footer: {
       style: 'dark',
+      logo: {
+        alt: 'VRCub.Docs Source Logo',
+        src: '/img/vrcub.svg',
+        href: 'https://vrcub.net',
+      },
       links: [
         {
           title: '文档',
@@ -154,7 +159,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} VRCub. | Built with Docusaurus. | 由dream_pep带着VRCub.Docs编辑组热情制作`,
+      copyright: `Copyright © ${new Date().getFullYear()} VRCub. | Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,

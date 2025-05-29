@@ -63,13 +63,8 @@ function HomepageSupport() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/About/JoinUs">
+            to="/docs/About/QQ">
             查看详情
-          </Link>
-          <Link
-            className={clsx('button button--secondary button--lg', styles.button)}
-            to="https://github.com/Lunova-Studio">
-            算了还是 GitHub Issues 和 Discussions 吧😨
           </Link>
         </div>
       </div>
@@ -86,7 +81,6 @@ export default function Home(): ReactNode {
       <HomepageHeader />
       <main>
         <div className={styles.mainDiv}>
-          <HomepageFeatures />
           <HomepageSupport />
         </div>
       </main>
