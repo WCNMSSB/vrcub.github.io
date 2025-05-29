@@ -115,16 +115,16 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: '文档',
           items: [
             {
-              label: '玩家文档',
-              to: '/docs/Thenoteforuser',
+              label: '玩家手册',
+              to: '/docs/UserDocs',
             },
           ],
         },
         {
-          title: 'Community',
+          title: '快速链接',
           items: [
             {
               label: 'Stack Overflow',

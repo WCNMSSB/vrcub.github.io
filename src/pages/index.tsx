@@ -19,8 +19,17 @@ function HomepageHeader() {
         <svg viewBox="-35 -25 100 100" className={styles.backgroundAnimateSecondary} xmlns="http://www.w3.org/2000/svg">
           <path className={styles.svgPathSecondary} d="M37-5C25.1-14.7,5.7-19.1-9.2-10-28.5,1.8-32.7,31.1-19.8,49c15.5,21.5,52.6,22,67.2,2.3C59.4,35,53.7,8.5,37-5Z" />
         </svg>
+        <div style={{ height: '150px' }} /> {/* 添加一个空白容器 */}
         <img className={styles.heroLogo} src="vrcub-logo/VRCub-white@svg.svg" alt="Lunova Studio Icon" />
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <div style={{ height: '20px' }} /> {/* 添加一个空白容器 */}
+        <p className="hero__subtitle">
+          欢迎查看VRCub官方文档
+          <br />
+          这里你可以查看到一些问题的解答，希望可以帮到你
+          <br />
+          当然，你也可以Fork我们的文档仓库进行修改，希望你能给我们更好的内容
+          <br />
+        </p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
@@ -28,6 +37,7 @@ function HomepageHeader() {
             查看我们的官网
           </Link>
         </div>
+        <div style={{ height: '150px' }} /> {/* 添加一个空白容器 */}
       </div>
     </header>
   );
@@ -40,16 +50,15 @@ function HomepageSupport() {
       <div className={clsx('container', styles.supportDiv)}>
         <h1 style={{ fontSize: '100px' }}>🤔</h1>
         <Heading as="h1" className="hero__title">
-          需要寻求帮助？
+          有些问题，这里无法解答？
         </Heading>
         <p className="hero__subtitle">
           我们有一些群聊，群聊里面的人非常《和谐友爱》，
           <br />
-          也许群聊里面有人可以帮助你解决问题，需要帮助的话进去问问？ awa
+          你可以在群里找到管理员
           <br />
-          当然，闲聊灌水也可以，甚至⚡发 电⚡😈
+          当然，闲聊灌水也可以
           <br /><br />
-          <h1 className={styles.joinColor}>甚至，成为我们的一员！</h1>
         </p>
         <div className={styles.buttons}>
           <Link
@@ -72,12 +81,11 @@ export default function Home(): ReactNode {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`Lunova Docs 🥳`}
-      description="快速帮助使用 Lunova Studio 的各种项目 awa">
+      title={`VRCub Docs 🥳`}
+      description="快速上手VRCub的内容">
       <HomepageHeader />
       <main>
         <div className={styles.mainDiv}>
-          <h1>查看我们的文档</h1>
           <HomepageFeatures />
           <HomepageSupport />
         </div>
