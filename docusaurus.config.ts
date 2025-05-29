@@ -10,15 +10,15 @@ const config: Config = {
   favicon: 'vrcub-logo/VRCub-black@svg.svg',
 
   // 在这里设置你网站的生产环境 URL
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://vrcub.github.io',
   // 设置你网站提供服务的 /<baseUrl>/ 路径名
   // 对于 GitHub Pages 部署，通常是 '/<projectName>/'
   baseUrl: '/',
 
   // GitHub Pages 部署配置。
   // 如果你不使用 GitHub Pages，则不需要这些。
-  organizationName: 'facebook', // 通常是你的 GitHub 组织/用户名。
-  projectName: 'docusaurus', // 通常是你的仓库名称。
+  organizationName: 'VRCub', // 通常是你的 GitHub 组织/用户名。
+  projectName: 'vrcub.github.io', // 通常是你的仓库名称。
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -40,7 +40,7 @@ const config: Config = {
           // 请将其更改为你的仓库。
           // 删除此项以删除“编辑此页”链接。
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/VRCub/vrcub.github.io',
         },
         blog: {
           showReadingTime: true,
@@ -51,7 +51,7 @@ const config: Config = {
           // 请将其更改为你的仓库。
           // 删除此项以删除“编辑此页”链接。
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/VRCub/vrcub.github.io',
           // 用于强制执行博客最佳实践的有用选项
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',

@@ -1,15 +1,15 @@
-name: 页面部署流程
+name: Page deployment
 
 on:
   push:
     branches:
       - docusaurus
-    # 由dream_pep撰写
-    # 不要乱改流程内容
+    # Review gh actions docs if you want to further define triggers, paths, etc
+    # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#on
 
 jobs:
   build:
-    name: 构建 Docusaurus
+    name: Build Docusaurus
     runs-on: ubuntu-latest
     env:
       GITHUB_ACTION_ID: ${{ github.run_id }}
@@ -22,25 +22,25 @@ jobs:
           node-version: 18
           cache: npm
 
-      - name: 安装 dependencies
+      - name: Install dependencies
         run: npm ci
-      - name: 构建网页
+      - name: Build website
         run: npm run build
-      - name: 创建 metadata 文件夹
+      - name: Create metadata file
         run: echo "GITHUB_ACTION_ID=${{ github.run_id }}" > metadata.env
-      - name: 上传 metadata 文件夹
+      - name: Upload metadata file
         uses: actions/upload-artifact@v4
         with:
           name: metadata
           path: metadata.env
 
-      - name: 上传后部署 Artifact
+      - name: Upload Build Artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: build
 
   deploy:
-    name: 构建页面到 GitHub Pages
+    name: Deploy to GitHub Pages
     needs: build
 
     # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
@@ -55,6 +55,6 @@ jobs:
 
     runs-on: ubuntu-latest
     steps:
-      - name: 构建页面到 GitHub Pages
+      - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
