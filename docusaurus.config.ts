@@ -40,7 +40,7 @@ const config: Config = {
           // 请将其更改为你的仓库。
           // 删除此项以删除“编辑此页”链接。
           editUrl:
-            'https://github.com/VRCub/vrcub.github.io',
+            'https://github.com/VRCub/vrcub.github.io/blob/main',
         },
         blog: {
           showReadingTime: true,
@@ -51,7 +51,7 @@ const config: Config = {
           // 请将其更改为你的仓库。
           // 删除此项以删除“编辑此页”链接。
           editUrl:
-            'https://github.com/VRCub/vrcub.github.io',
+            'https://github.com/VRCub/vrcub.github.io/blob/main',
           // 用于强制执行博客最佳实践的有用选项
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
