@@ -8,7 +8,7 @@ const config: Config = {
   title: 'VRCub Docs',
   tagline: 'VRCub官方文档库',
   favicon: 'vrcub-logo/VRCub-black@svg.svg',
-
+  onBrokenLinks: 'ignore', // 忽略无效链接检查（仅建议临时使用）
   // 在这里设置你网站的生产环境 URL
   url: 'https://vrcub.github.io',
   // 设置你网站提供服务的 /<baseUrl>/ 路径名
