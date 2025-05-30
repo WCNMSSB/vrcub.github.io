@@ -77,7 +77,7 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'UserDocsSidebar',
+          sidebarId: 'userSidebar',
           position: 'left',
           label: '玩家手册',
         },
@@ -119,15 +119,6 @@ const config: Config = {
         href: 'https://vrcub.net',
       },
       links: [
-        {
-          title: '文档',
-          items: [
-            {
-              label: '玩家手册',
-              to: '/docs/UserDocs',
-            },
-          ],
-        },
         {
           title: '快速链接',
           items: [
