@@ -123,3 +123,30 @@ PCL2：请登录你的正版帐号，然后点击启动游戏即可！
 ![IMG_2503.png](https://res.craft.do/user/full/8c64421f-afa1-96e8-dd67-8efce27b11dd/doc/45BB165F-FF44-4993-85FB-B120508BB2E5/D8513A8F-1110-4DB2-9F81-B59AE9B0C0CB_2/mXWifihjAPRXpuJ1OF7XtuuKjxTh936UhXiFBq37brsz/IMG_2503.png)
 
 你可以尝试打开Windows安全中心，关闭防火墙即可
+
+#### 启动VR模式时遇到了Hmd Not Found（108）报错
+
+这通常是因为您在上一次使用VR模式游玩后在第二次启动MC时vivecraft自动拉起SteamVR但是没有发现头显（hmd）导致的
+
+解决方案：
+
+1.每次关闭MC前手动退出VR模式
+
+2.在启动MC之前准备好SteamVR
+
+3.确保vivecraft拉起SteamVR时头显可以正常连接并工作
+
+4.先不管他并点击返回后重新启动SteamVR确定头显正常工作后再手动开启VR模式
+
+
+#### 开启VR模式后头显正常显示但是MC窗口显示Mirror is OFF
+
+出现此情况非常正常（因为为了玩家们更好的体验）
+
+想要打开桌面镜像的话，你可以在选项-VR设置......-相机和画面渲染......中把桌面镜像打开至任意一个适合您的选项即可
+
+#### PICO头显在使用使用全身追踪时胳膊鬼畜
+
+此问题是vivecraft模组和PICO互联共同导致的
+
+目前的解决办法是手动关掉PICO互联中的胳膊点位
