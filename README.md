@@ -1,41 +1,25 @@
-# Website
+# VRCub文档库
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+本文档库使用 [Docusaurus](https://docusaurus.io/) 来进行搭建
 
-### Installation
-
-```
-$ yarn
-```
-
-### Local Development
+### 使用命令
 
 ```
-$ yarn start
+$ npm
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
+### 本地预览
 
 ```
-$ yarn build
+$ npm run start
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+这个命令可以在本地运行一个网页服务器共你查看您的修改
 
-### Deployment
-
-Using SSH:
+### 构建
 
 ```
-$ USE_SSH=true yarn deploy
+$ npm build
 ```
 
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+这个命令可以进行构建静态版本的文件
