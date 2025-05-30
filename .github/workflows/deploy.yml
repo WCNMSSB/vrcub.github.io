@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: 自动部署与编译
 
 on:
   push:
@@ -9,7 +9,7 @@ on:
 
 jobs:
   build:
-    name: Build Docusaurus
+    name: 编译 Docusaurus
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -20,18 +20,18 @@ jobs:
           node-version: 18
           cache: npm
 
-      - name: Install dependencies
+      - name: 安装 dependencies
         run: npm ci
-      - name: Build website
-        run: npm build
+      - name: 构建网页基础套件
+        run: npm run build
 
-      - name: Upload Build Artifact
+      - name: 上传网页套件
         uses: actions/upload-pages-artifact@v3
         with:
           path: build
 
   deploy:
-    name: Deploy to GitHub Pages
+    name: 部署到 Github Page
     needs: build
 
     # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
