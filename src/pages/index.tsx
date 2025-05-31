@@ -31,12 +31,22 @@ function HomepageHeader() {
           <br />
         </p>
         <div className={styles.buttons}>
+        <Link
+            className="button button--secondary button--lg"
+            to="/docs/UserDocs/introduction">
+            立即开始
+          </Link>
           <Link
             className="button button--secondary button--lg"
             to="https://vrcub.net">
-            查看我们的官网
+            查看官网
           </Link>
-        </div>
+          <Link
+            className="button button--secondary button--lg"
+            href="https://space.bilibili.com/3546816610044329">
+            关注我们
+          </Link>
+        </div>          
         <div style={{ height: '150px' }} /> {/* 添加一个空白容器 */}
       </div>
     </header>

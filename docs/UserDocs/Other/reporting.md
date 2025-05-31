@@ -1,10 +1,11 @@
 ---
 id: reporting
 title: 正确的举报姿势
+sidebar_position: 99
 sidebar_label: 正确的举报姿势
 ---
 
-# 第四节：正确的举报姿势
+# 正确的举报姿势
 
 #### 举报信息收集
 

@@ -1,18 +1,18 @@
 ---
-id: commands
-title: 神奇的命令
-sidebar_label: 神奇的命令
+id: 2
+sidebar_position: 2
+sidebar_label: 2.领地命令的使用
 ---
 
-# 第二节：使用神奇的命令
+# 第二节：领地命令的使用
 
 #### 领地的神奇力量
 
-  摘要：
+:::info
 
   本服选点工具为“箭”，分别用其左键右键方块选择第一个第二个点形成空间长方体，再结合以下命令即可画出领地
 
- 以下来自  [http://www.mcbbs.net/thread-18529-1-1.html](http://www.mcbbs.net/thread-18529-1-1.html)
+:::
 
 ### 总命令
 
@@ -201,5 +201,3 @@ lavaflow：岩浆流动
 healing：设置是否能恢复生命
 
 pvp：设置是否能pvp
-
-  **本节正在撰写**

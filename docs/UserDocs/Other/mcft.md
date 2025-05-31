@@ -1,9 +1,10 @@
 ---
 id: mcft1
-sidebar_label: 其他
+sidebar_position: 2
+sidebar_label: MCFT面部捕捉教程
 ---
 
-# MCFT使用教程`测试版`
+# MCFT使用教程
 
 ## 🌟 前置准备须知
 

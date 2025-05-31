@@ -30,7 +30,9 @@ const config: Config = {
     defaultLocale: 'zh-Hans',
     locales: ['zh-Hans'],
   },
-
+  plugins: [[ require.resolve('docusaurus-lunr-search'), {
+    languages: ['zh'] // language codes
+  }]],
   presets: [
     [
       'classic',
@@ -48,10 +50,6 @@ const config: Config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          // 请将其更改为你的仓库。
-          // 删除此项以删除“编辑此页”链接。
-          editUrl:
-            'https://github.com/VRCub/vrcub.github.io/blob/main',
           // 用于强制执行博客最佳实践的有用选项
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -79,31 +77,21 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'userSidebar',
           position: 'left',
-          label: '玩家手册',
+          label: '📕玩家手册',
         },
         {
           type: 'docSidebar',
           sidebarId: 'adminSidebar',
           position: 'left',
-          label: '管理员手册',
+          label: '💫管理员手册',
         },
-        {to: '/blog', label: '博客日志', position: 'right'},
+        {to: '/server-status', label: '🛜服务器状态', position: 'left'},
+        {to: '/blog', label: '📰博客日志', position: 'right'},
         {
           type: 'docSidebar',
           sidebarId: 'aboutSidebar',
           position: 'right',
-          label: '关于',
-        },
-        {
-          type: 'dropdown',
-          label: '快速链接',
-          position: 'right',
-          items: [
-            {
-              label: 'vrcub 官网',
-              href: 'https://vrcub.net',
-            },
-          ],
+          label: '🚸关于',
         },
         {
           type: 'localeDropdown',
@@ -123,29 +111,34 @@ const config: Config = {
           title: '快速链接',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
               label: 'X',
               href: 'https://x.com/docusaurus',
             },
           ],
         },
         {
-          title: 'More',
+          title: '更多',
           items: [
             {
-              label: 'Blog',
+              label: '更新博客',
               to: '/blog',
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: '基础教程',
+              to: '/docs/category/教程',
+            },
+          ],
+        },
+        {
+          title: '社交媒体',
+          items: [
+            {
+              label: 'BiliBili [快去点关注！！]',
+              href: 'https://space.bilibili.com/3546816610044329',
+            },
+            {
+              label: 'QQ群',
+              to: '/docs/About/QQ',
             },
           ],
         },
