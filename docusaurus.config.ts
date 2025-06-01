@@ -6,9 +6,9 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'VRCub Docs',
-  tagline: 'VRCub官方文档库',
+  tagline: 'VRCub服务器官方文档库',
   favicon: 'vrcub-logo/VRCub-black@svg.svg',
-
+  onBrokenLinks: 'ignore', // 忽略无效链接检查（仅建议临时使用）
   // 在这里设置你网站的生产环境 URL
   url: 'https://vrcub.github.io',
   // 设置你网站提供服务的 /<baseUrl>/ 路径名
@@ -30,7 +30,9 @@ const config: Config = {
     defaultLocale: 'zh-Hans',
     locales: ['zh-Hans'],
   },
-
+  plugins: [[ require.resolve('docusaurus-lunr-search'), {
+    languages: ['zh'] // language codes
+  }]],
   presets: [
     [
       'classic',
@@ -40,7 +42,7 @@ const config: Config = {
           // 请将其更改为你的仓库。
           // 删除此项以删除“编辑此页”链接。
           editUrl:
-            'https://github.com/VRCub/vrcub.github.io',
+            'https://github.com/VRCub/vrcub.github.io/blob/main',
         },
         blog: {
           showReadingTime: true,
@@ -48,10 +50,6 @@ const config: Config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          // 请将其更改为你的仓库。
-          // 删除此项以删除“编辑此页”链接。
-          editUrl:
-            'https://github.com/VRCub/vrcub.github.io',
           // 用于强制执行博客最佳实践的有用选项
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -77,33 +75,23 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'UserDocsSidebar',
+          sidebarId: 'userSidebar',
           position: 'left',
-          label: '玩家手册',
+          label: '📕玩家手册',
         },
         {
           type: 'docSidebar',
           sidebarId: 'adminSidebar',
           position: 'left',
-          label: '管理员手册',
+          label: '💫管理员手册',
         },
-        {to: '/blog', label: '博客日志', position: 'right'},
+        {to: '/server-status', label: '🛜服务器状态', position: 'left'},
+        {to: '/blog', label: '📰博客日志', position: 'right'},
         {
           type: 'docSidebar',
           sidebarId: 'aboutSidebar',
           position: 'right',
-          label: '关于',
-        },
-        {
-          type: 'dropdown',
-          label: '快速链接',
-          position: 'right',
-          items: [
-            {
-              label: 'vrcub 官网',
-              href: 'https://vrcub.net',
-            },
-          ],
+          label: '🚸关于',
         },
         {
           type: 'localeDropdown',
@@ -120,25 +108,8 @@ const config: Config = {
       },
       links: [
         {
-          title: '文档',
-          items: [
-            {
-              label: '玩家手册',
-              to: '/docs/UserDocs',
-            },
-          ],
-        },
-        {
           title: '快速链接',
           items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
             {
               label: 'X',
               href: 'https://x.com/docusaurus',
@@ -146,15 +117,28 @@ const config: Config = {
           ],
         },
         {
-          title: 'More',
+          title: '更多',
           items: [
             {
-              label: 'Blog',
+              label: '更新博客',
               to: '/blog',
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: '基础教程',
+              to: '/docs/category/教程',
+            },
+          ],
+        },
+        {
+          title: '社交媒体',
+          items: [
+            {
+              label: 'BiliBili [快去点关注！！]',
+              href: 'https://space.bilibili.com/3546816610044329',
+            },
+            {
+              label: 'QQ群',
+              to: '/docs/About/QQ',
             },
           ],
         },

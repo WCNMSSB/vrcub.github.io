@@ -2,3 +2,8 @@ Thenoteforuser:
   label: Thenoteforuser
   permalink: /Thenoteforuser
   description: 玩家手册
+
+dateup:
+  label: dateup
+  permalink: /dateup
+  description: 更新日志
