@@ -22,6 +22,6 @@ sidebar_label: 正确的举报姿势
 
 建议尽量收集上面全部类型的证据，这可以更好地帮助我们解决问题
 
-[VRCub玩家违规行为与处罚细则说明](https://lingke.craft.me/VRCub-appeal)
+[VRCub玩家违规行为与处罚细则说明](/docs/AdminDocs/appeal)
 
   **本节正在撰写**

@@ -21,9 +21,9 @@ VRCub作为社区玩法服务器，我们不希望对玩家做过多的限制，
 特殊情况直接永久封禁
 :::
 ---
-
-> 本片文档仅供展示处理方案，如需举报，请前往[https://lingke00.feishu.cn/share/base/form/shrcn7u3dMCn7DvLn6WLmh7YaPd](https://lingke00.feishu.cn/share/base/form/shrcn7u3dMCn7DvLn6WLmh7YaPd)
-
+:::info
+本片文档仅供展示处理方案，如需举报，请前往[VRCub反馈表单](https://lingke00.feishu.cn/share/base/form/shrcn7u3dMCn7DvLn6WLmh7YaPd)
+:::
 ## 一、违规行为分类与判定标准
 
 ### 1.1 文字类违规
