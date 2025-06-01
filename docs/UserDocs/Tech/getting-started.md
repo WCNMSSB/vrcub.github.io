@@ -33,7 +33,7 @@ sidebar_label: 1.安装与启动
 
 这边您可以在下面选择一个启动器，来阅读操作方法，如果你已经有启动器了，请跳过本篇！
 
-我们为HMCL和PCL2录制了[视频教程](【https://www.bilibili.com/video/BV1Dcj3zuENx/?share_source=copy_web&vd_source=60e7923df8c292e1f646721ca17cb4d2),LancherX的视频教程也会马上推出！
+我们为HMCL和PCL2录制了[视频教程](https://www.bilibili.com/video/BV1Dcj3zuENx/?share_source=copy_web&vd_source=60e7923df8c292e1f646721ca17cb4d2),LancherX的视频教程也会马上推出！
 
 ![VRCub安装教程（PCL2.HMCL)](https://github.com/WCNMSSB/vrcub.github.io/blob/main/static/img/vrcubmcpackinstall.png)
 
