@@ -42,7 +42,13 @@ QQ下载：
 
 这边您可以在下面选择一个启动器，来阅读操作方法，如果你已经有启动器了，请跳过本篇！
 
-#### 使用LancherX
+我们为HMCL和PCL2录制了[视频教程](【https://www.bilibili.com/video/BV1Dcj3zuENx/?share_source=copy_web&vd_source=60e7923df8c292e1f646721ca17cb4d2),LancherX的视频教程也会马上推出！
+
+![VRCub安装教程（PCL2.HMCL)](https://github.com/WCNMSSB/vrcub.github.io/blob/main/static/img/vrcubmcpackinstall.png)
+
+
+
+### 使用LancherX
 
 由于HMCL过于古老（而且dream_pep不喜欢），本教程将教您使用LancherX来进行操作
 
@@ -123,3 +129,89 @@ PCL2：请登录你的正版帐号，然后点击启动游戏即可！
 ![IMG_2503.png](https://res.craft.do/user/full/8c64421f-afa1-96e8-dd67-8efce27b11dd/doc/45BB165F-FF44-4993-85FB-B120508BB2E5/D8513A8F-1110-4DB2-9F81-B59AE9B0C0CB_2/mXWifihjAPRXpuJ1OF7XtuuKjxTh936UhXiFBq37brsz/IMG_2503.png)
 
 你可以尝试打开Windows安全中心，关闭防火墙即可
+
+
+
+### 启动VR模式时遇到了Hmd Not Found（108）报错
+
+这通常是因为您在上一次使用VR模式游玩后在第二次启动MC时vivecraft自动拉起SteamVR但是没有发现头显（hmd）导致的
+
+解决方案：
+
+1.每次关闭MC前手动退出VR模式
+
+2.在启动MC之前准备好SteamVR
+
+3.确保vivecraft拉起SteamVR时头显可以正常连接并工作
+
+4.先不管他并点击返回后重新启动SteamVR确定头显正常工作后再手动开启VR模式
+
+
+
+### 开启VR模式后头显正常显示但是MC窗口显示Mirror is OFF
+
+出现此情况非常正常（因为为了玩家们更好的体验）
+
+想要打开桌面镜像的话，你可以在选项-VR设置......-相机和画面渲染......中把桌面镜像打开至任意一个适合您的选项即可
+
+
+
+### PICO头显在使用使用全身追踪时胳膊鬼畜
+
+此问题是vivecraft模组和PICO互联共同导致的
+
+目前的解决办法是手动关掉PICO互联中的胳膊点位
+
+### 觉得VR模式玩的不顺手？
+
+这是因为vivecraft对比于部分游戏（VRCHAT等等）的键位绑定不太人性化
+
+大部分VR玩家会出现短暂时间内不适应的情况
+
+解决方法：
+
+#### 修改SteamVR控制器绑定
+
+建议开着vivecraft改绑定，否则你可能在控制器绑定中看不到vivecraft这个应用
+
+##### 游戏内呼出VR主面板修改（推荐）
+
+1.使用手柄的菜单键呼出VR主面板
+
+2.点击正在运行
+
+3.点击编辑控制器绑定
+
+4.在有效控制器绑定中选择自定义
+
+5.点击编辑此绑定
+
+6.现在就可以按您的习惯更改绑定了
+
+##### 在桌面下更改
+
+1.在SteamVR状态窗口中点击左上角菜单（三条杠）
+
+2.点击设置
+
+3.在SteamVR设置窗口中点击控制器
+
+4.点击管理控制器绑定
+
+5.选择VIVECRAFT
+
+6.在有效控制器绑定中选择自定义
+
+7.点击编辑此绑定
+
+8.现在就可以按您的习惯更改绑定了
+
+##### 在创意工坊寻找适合您的键位
+
+在上面方法在在有效控制器绑定中选择自定义后
+
+点击选择另一个
+
+寻找适合您的键位
+
+推荐：适用于VRCTAT宝宝体质的VIVECRAFT键位
