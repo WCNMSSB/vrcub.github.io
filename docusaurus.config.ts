@@ -83,7 +83,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'adminSidebar',
           position: 'left',
-          label: '💫管理员手册',
+          label: '💫VRCub手册',
         },
         {to: '/server-status', label: '🛜服务器状态', position: 'left'},
         {to: '/blog', label: '📰博客日志', position: 'right'},
