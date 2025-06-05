@@ -1,8 +1,8 @@
 ---
-id: 2
-sidebar_position: 2
-title: 2.Minecraft® EULA协议
-sidebar_label: 2.Minecraft® EULA协议
+id: 4
+sidebar_position: 4
+title: 4.Minecraft® EULA协议
+sidebar_label: 4.Minecraft® EULA协议
 ---
 
 # Minecraft® EULA协议
