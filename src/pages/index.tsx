@@ -33,7 +33,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
         <Link
             className="button button--secondary button--lg"
-            to="/docs/UserDocs/introduction">
+            to="/docs/category/安装游戏与vr设置">
             立即开始
           </Link>
           <Link
