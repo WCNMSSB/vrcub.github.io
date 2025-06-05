@@ -124,7 +124,7 @@ const config: Config = {
             },
             {
               label: '基础教程',
-              to: '/docs/category/教程',
+              to: '/docs/UserDocs',
             },
           ],
         },
