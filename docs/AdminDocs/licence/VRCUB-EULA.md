@@ -5,6 +5,13 @@ title: 3.VRCUB-EULA协议
 sidebar_label: 3.VRCUB-EULA协议
 ---
 
+# VRCUB EULA 协议
+
+:::warning
+**注意**：
+本隐私协议不在生效状态，不可作为有效判断依据，详细请咨询群内管理员，谢谢！
+:::
+
 阁下您好！本文档全称《VRCub Server <服务条款及最终用户许可协议>》（以下简称“ VRCUB-EULA ”）。VRCub Server 非常注重规范化的管理，所以VRCub Server 需要编写 VRCUB-EULA 来规范 VRCub Server 运行。
 
 以下本文档所用代指词释意。 格式：<简称> **=>** <完整称呼>
