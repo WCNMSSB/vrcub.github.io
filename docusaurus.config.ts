@@ -124,7 +124,7 @@ const config: Config = {
             },
             {
               label: '基础教程',
-              to: '/docs/UserDocs',
+              to: '/docs/category/安装游戏与vr设置',
             },
           ],
         },
