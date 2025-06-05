@@ -1,10 +1,9 @@
 ---
-id: 1
-sidebar_position: 1
-sidebar_label: 1.绑定QQ
+sidebar_position: 2
+sidebar_label: 2.建材获取
 ---
 
-# 绑定QQ
+# 建材获取
 
 :::warning
 **注意**：

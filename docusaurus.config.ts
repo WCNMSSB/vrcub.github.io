@@ -86,7 +86,6 @@ const config: Config = {
           label: '💫VRCub手册',
         },
         {to: '/server-status', label: '🛜服务器状态', position: 'left'},
-        {to: '/blog', label: '📰博客日志', position: 'right'},
         {
           type: 'docSidebar',
           sidebarId: 'aboutSidebar',

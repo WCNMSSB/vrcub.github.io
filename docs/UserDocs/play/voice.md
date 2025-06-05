@@ -1,10 +1,9 @@
 ---
-id: 1
-sidebar_position: 1
-sidebar_label: 1.绑定QQ
+sidebar_position: 3
+sidebar_label: 3.语音功能
 ---
 
-# 绑定QQ
+# 语音功能
 
 :::warning
 **注意**：

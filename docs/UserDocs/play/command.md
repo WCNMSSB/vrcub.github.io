@@ -1,8 +1,6 @@
 ---
-id: 2
-sidebar_position: 2
-title: 2.常用命令
-sidebar_label: 2.常用命令
+sidebar_position: 4
+sidebar_label: 4.常用命令
 ---
 
 # 常用命令

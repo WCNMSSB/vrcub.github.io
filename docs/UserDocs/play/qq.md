@@ -1,11 +1,9 @@
 ---
-id: 2
 sidebar_position: 2
-title: 2.常用命令
-sidebar_label: 2.常用命令
+sidebar_label: 2.绑定QQ
 ---
 
-# 常用命令
+# 绑定QQ
 
 :::warning
 **注意**：

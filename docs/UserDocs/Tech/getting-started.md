@@ -1,13 +1,17 @@
 ---
-id: 1
 sidebar_position: 1
-title: 1.安装与启动
-sidebar_label: 1.安装与启动
+title: 1.客户端安装
+sidebar_label: 1.客户端安装
 ---
 
-# 安装并启动VRCub
+# 客户端安装
 
-## 第一章：下载VRCub整合包
+<details>
+  <summary>不想看文字？文字看不懂？点我查看教学视频！</summary>
+  <iframe style={{"width":"100%", "aspectRatio":"16/9"}} src="//player.bilibili.com/player.html?isOutside=true&aid=114567178886316&bvid=BV1Dcj3zuENx&cid=30141711385&p=1" scrolling="yes" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+</details>
+
+## 客户端安装
 
 在开始时你需要拥有一个QQ帐号。
 
@@ -35,9 +39,10 @@ sidebar_label: 1.安装与启动
 
 我们为HMCL和PCL2录制了[视频教程](https://www.bilibili.com/video/BV1Dcj3zuENx/?share_source=copy_web&vd_source=60e7923df8c292e1f646721ca17cb4d2),LancherX的视频教程也会马上推出！
 
-![VRCub安装教程（PCL2.HMCL)](https://github.com/WCNMSSB/vrcub.github.io/blob/main/static/img/vrcubmcpackinstall.png)
-
-
+<details>
+  <summary>查看视频</summary>
+  <iframe style={{"width":"100%", "aspectRatio":"16/9"}} src="//player.bilibili.com/player.html?isOutside=true&aid=114567178886316&bvid=BV1Dcj3zuENx&cid=30141711385&p=1" scrolling="yes" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+</details>
 
 ### 使用LancherX
 

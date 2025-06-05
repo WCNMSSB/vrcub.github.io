@@ -1,8 +1,8 @@
 {
-  "label": "🚗基础教程",
-  "position": 3,
+  "label": "🚗实用教程",
+  "position": 4,
   "link": {
     "type": "generated-index",
-    "description": "游戏，从这里开始"
+    "description": "常用教程，可以给你更好的体验"
   }
 }
