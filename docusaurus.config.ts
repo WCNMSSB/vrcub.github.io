@@ -64,9 +64,6 @@ const config: Config = {
 
   themeConfig: {
     // 替换为你的项目的社交卡片
-    docs: {
-      showLastUpdateTime: true, // 启用最后更新时间
-    },
     image: 'vrcub-logo/VRCub-white@svg.svg',
     navbar: {
       //title: 'VRCub Docs',
@@ -113,8 +110,8 @@ const config: Config = {
           title: '快速链接',
           items: [
             {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
+              label: '官网',
+              href: 'https://vrcub.net',
             },
           ],
         },
@@ -145,7 +142,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} VRCub. | Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} VRCub. | 使用 Docusaurus 强力驱动.`,
     },
     prism: {
       theme: prismThemes.github,
