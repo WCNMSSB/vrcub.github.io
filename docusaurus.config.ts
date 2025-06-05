@@ -85,6 +85,7 @@ const config: Config = {
           position: 'left',
           label: '💫VRCub手册',
         },
+        {to: '/map', label: 'Ⓜ️地图', position: 'left'},
         {to: '/server-status', label: '🛜服务器状态', position: 'left'},
         {
           type: 'docSidebar',
