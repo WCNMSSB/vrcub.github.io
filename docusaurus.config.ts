@@ -64,6 +64,9 @@ const config: Config = {
 
   themeConfig: {
     // 替换为你的项目的社交卡片
+    docs: {
+      showLastUpdateTime: true, // 启用最后更新时间
+    },
     image: 'vrcub-logo/VRCub-white@svg.svg',
     navbar: {
       //title: 'VRCub Docs',
