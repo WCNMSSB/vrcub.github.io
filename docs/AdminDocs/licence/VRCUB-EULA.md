@@ -5,6 +5,7 @@ title: 3.VRCUB-EULA协议
 sidebar_label: 3.VRCUB-EULA协议
 ---
 
+
 # VRCUB EULA 协议
 
 :::warning
@@ -12,89 +13,89 @@ sidebar_label: 3.VRCUB-EULA协议
 本隐私协议不在生效状态，不可作为有效判断依据，详细请咨询群内管理员，谢谢！
 :::
 
-阁下您好！本文档全称《VRCub Server <服务条款及最终用户许可协议>》（以下简称“ VRCUB-EULA ”）。VRCub Server 非常注重规范化的管理，所以VRCub Server 需要编写 VRCUB-EULA 来规范 VRCub Server 运行。
+阁下您好！本文档全称《VRCub 「服务条款及最终用户许可协议」》（以下简称“ VRCUB-EULA ”）。VRCub 非常注重规范化的管理，所以VRCub 需要编写 VRCUB-EULA 来规范 VRCub 运行。
 
-以下本文档所用代指词释意。 格式：<简称> **=>** <完整称呼>
+以下本文档所用代指词释意。 格式：「简称」 **=>** 「完整称呼」
 
-- VRCUB-EULA => 《VRCub Server <服务条款及最终用户许可协议>》
+VRCUB-EULA - 《VRCub 「服务条款及最终用户许可协议」》
 
-- VRCub Server => VRCub Server Minecraft服务器
+VRCub - VRCub Minecraft服务器
 
-- 阁下 => VRCub Server 中的玩家（们）
+阁下 - VRCub 中的玩家（们）
 
-- Minecraft => 由 Mojang Studio 开发的高自由度沙盒游戏《 Minecraft：Java 版》（ Minecraft: JavaEdition ） & 《 Minecraft：基岩版》（ Minecraft: BedrockEdition ）
+Minecraft - 由 Mojang Studio 开发的高自由度沙盒游戏《 Minecraft：Java 版》（ Minecraft: JavaEdition ） & 《 Minecraft：基岩版》（ Minecraft: BedrockEdition ）
 
-- VR版 => 由第三方社区开发的衍生版本 Vivecraft 。
+VR版 - 由第三方社区开发的衍生版本 Vivecraft 。
 
 # 前言 & 声明
 
-VRCub Server 保留所有权利。 “ Minecraft “及其产品为 Mojang AB 的商标。
+VRCub 保留所有权利。 “ Minecraft “及其产品为 Mojang AB 的商标。
 
-VRCub Server 不隶属于 Mojang AB。
-VRCub Server 在遵守 《 Minecraft EULA 》(最终用户许可协议) 的情况下运营。
-VRCub Server 不包含任何内购产品。
-此外， VRCub Server 保留对本文档及其副本的所有解释权力/权利。
+VRCub 不隶属于 Mojang AB。
+VRCub 在遵守 《 Minecraft EULA 》(最终用户许可协议) 的情况下运营。
+VRCub 不包含任何内购产品。
+此外， VRCub 保留对本文档及其副本的所有解释权力/权利。
 
 # VRCUB-EULA 简述
 
 “简述”是指对全文内容的简单概括。该内容仅供参考，若需详细了解，请阁下转到该简述所对应的文段。
 
-这些是 VRCUB-EULA 中一些重要的规则，除非 VRCub Server 明确要求您这么做，否则阁下不得违反以下重要规定：
+这些是 VRCUB-EULA 中一些重要的规则，除非 VRCub 明确要求您这么做，否则阁下不得违反以下重要规定：
 
-阁下在游玩 VRCub Server 的同时，不得违反《 中华人民共和国宪法 》及其派生法律。
+阁下在游玩 VRCub 的同时，不得违反《 中华人民共和国宪法 》及其派生法律。
 
-阁下在游玩 VRCub Server 的同时，不得以任何理由、任何借口、任何原因损害其他以法律形式规定公民的合法权益。
+阁下在游玩 VRCub 的同时，不得以任何理由、任何借口、任何原因损害其他以法律形式规定公民的合法权益。
 
-阁下在游玩 VRCub Server 的同时，不得作出损害中国国家形象的任何行为举止。
-阁下在游玩 VRCub Server 的同时，不得恶意破坏其他玩家作品，不得恶意攻击服务器。
+阁下在游玩 VRCub 的同时，不得作出损害中国国家形象的任何行为举止。
+阁下在游玩 VRCub 的同时，不得恶意破坏其他玩家作品，不得恶意攻击服务器。
 
-若您确实被证实违反了条款， VRCub Server 有权对阁下进行相应的处理。
+若您确实被证实违反了条款， VRCub 有权对阁下进行相应的处理。
 
-阁下在 VRCub Server 官方社区内发表的包括但不限于任何文字、影视、音像作品，不得违反 VRCUB-EULA 。
+阁下在 VRCub 官方社区内发表的包括但不限于任何文字、影视、音像作品，不得违反 VRCUB-EULA 。
 
-阁下应该维护 VRCub Server 良好的 Minecraft 服务器环境，与其他玩家友好相处。
+阁下应该维护 VRCub 良好的 Minecraft 服务器环境，与其他玩家友好相处。
 
 # 正文
 
 0. 隐私权力/权利协议
 
-VRCub Server 非常注重您的隐私权力/权利。根据 VRCub Server 运行需要，VRCub Server 可以概括出一句话： VRCub Server 收集阁下的个人信息。 这些信息是必要的，如果没有这些信息，VRCub Server 无法正常运行。
+VRCub 非常注重您的隐私权力/权利。根据 VRCub 运行需要，VRCub 可以概括出一句话： VRCub 收集阁下的个人信息。 这些信息是必要的，如果没有这些信息，VRCub 无法正常运行。
 
-“个人信息”指的是用户名称， UUID ，皮肤，披风，阁下在游戏中的具体操作，阁下在游戏中执行的命令，阁下在游戏中的聊天信息， Cookie ， localStorage 。这些数据将用于 VRCub Server 正常管理。
+“个人信息”指的是用户名称， UUID ，皮肤，披风，阁下在游戏中的具体操作，阁下在游戏中执行的命令，阁下在游戏中的聊天信息， Cookie ， localStorage 。这些数据将用于 VRCub 正常管理。
 
 此外，我们使用的其他服务的服务提供商可能会收集阁下的信息（第三方数据收集）。如需了解，请阁下转到其他服务商页面查看。
 
 1. 免责声明
 
-阁下在 VRCub Server 游玩，即代表阁下同意 VRCUB-EULA 。VRCUB-EULA 可能会根据实际情况做出若干调整，VRCub Server 有权在不通知阁下的情况下修改或删除本条款/协议。当然，如本条款/协议有任何调整，VRCub Server 一般都会在调整后通知阁下。请注意，“通知”指的是发布通告信息，而不是向阁下单独发送（尽管 VRCub Server 可能向阁下单独发送）。
+阁下在 VRCub 游玩，即代表阁下同意 VRCUB-EULA 。VRCUB-EULA 可能会根据实际情况做出若干调整，VRCub 有权在不通知阁下的情况下修改或删除本条款/协议。当然，如本条款/协议有任何调整，VRCub 一般都会在调整后通知阁下。请注意，“通知”指的是发布通告信息，而不是向阁下单独发送（尽管 VRCub 可能向阁下单独发送）。
 
-阁下在游玩时造成的任何道德/法律/社会舆论后果，均与 VRCub Server 无关。如阁下确实造成了法律后果， VRCub Server 有权向阁下/公职人员提供所收集的数据。
+阁下在游玩时造成的任何道德/法律/社会舆论后果，均与 VRCub 无关。如阁下确实造成了法律后果， VRCub 有权向阁下/公职人员提供所收集的数据。
 
 2. 关于法律条款
 
-阁下在游玩时，应遵守《 中华人民共和国宪法 》及其派生法律。同时，不得以任何理由、任何借口、任何原因损害其他以法律形式规定公民的合法权益。这是 VRCub Server 的要求，也是法律要求。
+阁下在游玩时，应遵守《 中华人民共和国宪法 》及其派生法律。同时，不得以任何理由、任何借口、任何原因损害其他以法律形式规定公民的合法权益。这是 VRCub 的要求，也是法律要求。
 
-若阁下对 VRCub Server 服务器发起攻击（如CC，UDP Flood，DoS等），VRCub Server 有权收集证据并向阁下提起和解/调解/仲裁/法律诉讼的要求。
+若阁下对 VRCub 服务器发起攻击（如CC，UDP Flood，DoS等），VRCub 有权收集证据并向阁下提起和解/调解/仲裁/法律诉讼的要求。
 
-阁下在游玩 VRCub Server 时，造成的任何法律后果，均由阁下自行承担。 VRCub Server 有权向法律调查取证机构/机关/已授权的企业事业单位/个人提供所收集阁下的数据。
+阁下在游玩 VRCub 时，造成的任何法律后果，均由阁下自行承担。 VRCub 有权向法律调查取证机构/机关/已授权的企业事业单位/个人提供所收集阁下的数据。
 
 3. 网络资产声明
 
-VRCub Server 所注册占有域名，及其他可能涉及并由 VRCub Server 开设者注册占有域名，所有权由 VRCub Server Team 所有，最终所有权归上级域名注册管理机构所有。
+VRCub 所注册占有域名，及其他可能涉及并由 VRCub 开设者注册占有域名，所有权由 VRCub Team 所有，最终所有权归上级域名注册管理机构所有。
 
-阁下在游玩时所产生的数据，由 VRCub Server 及阁下共同所有。其中，这些资产由 VRCub Server 保留所有权利，并拥有对这些数据的解释权及修改/删除权利。
+阁下在游玩时所产生的数据，由 VRCub 及阁下共同所有。其中，这些资产由 VRCub 保留所有权利，并拥有对这些数据的解释权及修改/删除权利。
 
-VRCub Server 不会主动公开阁下的隐私数据资产，除非阁下要求 VRCub Server 这么做，并已被 VRCub Server 同意。
+VRCub 不会主动公开阁下的隐私数据资产，除非阁下要求 VRCub 这么做，并已被 VRCub 同意。
 
 4. 作品所有权
 
-阁下在 VRCub Server 创造的任何作品，版权均归阁下所有，VRCub Server 不占有该作品的所有权。因此，该作品与 VRCub Server 无关。但是， VRCub Server 可能会发布有关该作品的文字，图像，视频，音像等其他宣传用作品。这些作品所有权由 VRCub Server 所有，但阁下可以要求 VRCub Server 删除涉及到阁下作品的 VRCub Server 的作品。
+阁下在 VRCub 创造的任何作品，版权均归阁下所有，VRCub 不占有该作品的所有权。因此，该作品与 VRCub 无关。但是， VRCub 可能会发布有关该作品的文字，图像，视频，音像等其他宣传用作品。这些作品所有权由 VRCub 所有，但阁下可以要求 VRCub 删除涉及到阁下作品的 VRCub 的作品。
 
-阁下作品所造成的版权纠纷，均由阁下自行承担，与 VRCub Server 无关。
+阁下作品所造成的版权纠纷，均由阁下自行承担，与 VRCub 无关。
 
 5. 兼容性声明
 
-VRCub Server 的主要内容来自《 Minecraft：Java 版》，尽管 VRCub Server 为其他 Minecraft 版本提供支持，但这种支持是有限的，无法做到100%的完美。
+VRCub 的主要内容来自《 Minecraft：Java 版》，尽管 VRCub 为其他 Minecraft 版本提供支持，但这种支持是有限的，无法做到100%的完美。
 
 以下是我们使用的兼容性套件：
 
@@ -102,15 +103,15 @@ Vivecraft-Velocity-Expansion：用于向 VR 版玩家提供支持。
 
 6. 合作声明
 
-VRCub Server 与其他服务器建立合作关系，以求共同发展。 VRCub Server 在与这些服务器合作的同时，不会对阁下的权益造成损害。若其他服务器确实对 VRCub Server 或阁下的权益造成损害， VRCub Server 有权向其他服务器提出终止合作的要求。终止合作后，双方不再存在任何关联。
+VRCub 与其他服务器建立合作关系，以求共同发展。 VRCub 在与这些服务器合作的同时，不会对阁下的权益造成损害。若其他服务器确实对 VRCub 或阁下的权益造成损害， VRCub 有权向其他服务器提出终止合作的要求。终止合作后，双方不再存在任何关联。
 
 7. 社区使用规范
 
-VRCub Server 创建的社区（包括不限于群，频道等）由 VRCub Server 管理。阁下在使用社区时，应当遵守 VRCub Server 所发布的社区规范及服务提供商相关协议。如阁下违反了相关条款，可能要承担相应的责任。
+VRCub 创建的社区（包括不限于群，频道等）由 VRCub 管理。阁下在使用社区时，应当遵守 VRCub 所发布的社区规范及服务提供商相关协议。如阁下违反了相关条款，可能要承担相应的责任。
 
 # 后记
 
-总而言之， VRCub Server 希望阁下遵守 VRCUB-EULA 。 本文档所有权及其副本由 VRCub Server 所有。 VRCUB-EULA 所规定内容自发布日起有效。由于 VRCub Server 无法做到对阁下做到通知，所以 VRCUB-EULA 更新时，怒不停提供通知，如您继续游玩 VRCub Server 表示您愿意遵守 VRCUB-EULA ！
+总而言之， VRCub 希望阁下遵守 VRCUB-EULA 。 本文档所有权及其副本由 VRCub 所有。 VRCUB-EULA 所规定内容自发布日起有效。由于 VRCub 无法做到对阁下做到通知，所以 VRCUB-EULA 更新时，怒不停提供通知，如您继续游玩 VRCub 表示您愿意遵守 VRCUB-EULA ！
 
 附：
 
