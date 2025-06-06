@@ -90,4 +90,4 @@ MCFT目前还在测试中，并未在现整合包内试装，不建议新手小�
 
 你会看到这样的报错
 
-![fabric loader cw](https://raw.githubusercontent.com/WCNMSSB/vrcub.github.io/refs/heads/main/static/img/mcftfbe.png)
+![fabric loader cw](/img/mcftfbe.png)
