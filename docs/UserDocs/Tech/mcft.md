@@ -23,7 +23,7 @@ MCFT目前还在测试中，并未在现整合包内试装，不建议新手小�
 我们对现阶段想使用MCFT的伙计推出了视频教程喵~
 <details>
   <summary>查看视频</summary>
- <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=114615094612673&bvid=BV1iY7QzYE8b&cid=30292053872&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+  <iframe style={{"width":"100%", "aspectRatio":"16/9"}} src="//player.bilibili.com/player.html?isOutside=true&aid=114615094612673&bvid=BV1iY7QzYE8b&cid=30292053872&p=1" scrolling="yes" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 </details>
 
 
@@ -90,4 +90,4 @@ MCFT目前还在测试中，并未在现整合包内试装，不建议新手小�
 
 你会看到这样的报错
 
-![fabric loader cw](/img/mcftfbe.png)
+![fabric loader cw](/docs-img/mcftfbe.png)
