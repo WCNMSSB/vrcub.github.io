@@ -34,3 +34,5 @@ sidebar_label: 2.Dream_pep Design®作品版权
 dream_pep
 生效日期：2025年4月27日
 
+![版权所有，盗版必究](/img/dream-pep.svg)
+
