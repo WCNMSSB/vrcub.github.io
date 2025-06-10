@@ -2,6 +2,8 @@
 
 本文档库使用 [Docusaurus](https://docusaurus.io/) 来进行搭建
 
+版本0.0.0
+
 ### 使用命令
 
 ```
