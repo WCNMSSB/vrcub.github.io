@@ -30,9 +30,12 @@ const config: Config = {
     defaultLocale: 'zh-Hans',
     locales: ['zh-Hans'],
   },
-  plugins: [[ require.resolve('docusaurus-lunr-search'), {
-    languages: ['zh'] // language codes
-  }]],
+  plugins: [
+    [ require.resolve('docusaurus-lunr-search'), {
+      languages: ['zh'] // language codes
+    }],
+    require.resolve('./src/plugins/docusaurus-plugin-no-doc'),
+  ],
   presets: [
     [
       'classic',
@@ -85,8 +88,9 @@ const config: Config = {
           position: 'left',
           label: '💫VRCub手册',
         },
-        {href: 'https://account.vrcub.net', label: 'Ⓜ️在线地图', position: 'left'},
-        {to: '/server-status', label: '🛜服务状态', position: 'left'},
+        {href: 'https://account.vrcub.net', label: 'Ⓜ️地图', position: 'left'},
+        {to: '/server-status', label: '🛜状态', position: 'left'},
+        {href: 'https://flarum.vrcub.net', label: '🔥论坛', position: 'left'},
         {
           type: 'docSidebar',
           sidebarId: 'aboutSidebar',

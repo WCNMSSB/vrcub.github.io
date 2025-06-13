@@ -3,6 +3,7 @@ id: vrcubplus
 sidebar_position: 5
 title: 5.VRCub+用户协议
 sidebar_label: 5.VRCub+用户协议
+no: true
 ---
 
 # VRCub+用户协议

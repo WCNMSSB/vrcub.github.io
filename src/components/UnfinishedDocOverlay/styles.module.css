@@ -1,0 +1,28 @@
+.overlay {
+  position: fixed;
+  top: var(--ifm-navbar-height);
+  left: var(--doc-sidebar-width);
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+[data-theme='dark'] .overlay {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.content {
+  text-align: center;
+  color: var(--ifm-color-primary);
+}
+
+.icon {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 1rem;
+}

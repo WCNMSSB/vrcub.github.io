@@ -28,5 +28,3 @@ import Link from '@docusaurus/Link';
 - 感谢 [天空之橙](https://b23.tv/1YOjCLm) 对服务器进行录播与内容切片
 
 - 感谢 Shark_coco（鲨尾按摩1号首席技鲨）作为VRCub吉祥物
-
-- 感谢 Lingke Network 提供加速支持（对国内加速站）
