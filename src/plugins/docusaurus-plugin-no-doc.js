@@ -1,6 +1,28 @@
 module.exports = function(context, options) {
   return {
     name: 'docusaurus-plugin-no-doc',
+    configureWebpack(config, isServer, utils) {
+      return {
+        module: {
+          rules: [
+            {
+              test: /\.md$/,
+              use: [
+                {
+                  loader: require.resolve('./markdownLoader'),
+                },
+              ],
+            },
+          ],
+        },
+      };
+    },
+  };
+};
+
+module.exports = function(context, options) {
+  return {
+    name: 'docusaurus-plugin-no-doc',
     injectHtmlTags() {
       return {
         postBodyTags: [

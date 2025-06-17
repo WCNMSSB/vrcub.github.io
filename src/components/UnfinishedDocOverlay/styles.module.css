@@ -1,7 +1,7 @@
 .overlay {
   position: fixed;
   top: var(--ifm-navbar-height);
-  left: var(--doc-sidebar-width);
+  left: 0;
   right: 0;
   bottom: 0;
   background: rgba(255, 255, 255, 0.9);
@@ -10,6 +10,7 @@
   align-items: center;
   justify-content: center;
   z-index: 100;
+  margin-left: var(--doc-sidebar-width);
 }
 
 [data-theme='dark'] .overlay {
@@ -19,10 +20,12 @@
 .content {
   text-align: center;
   color: var(--ifm-color-primary);
+  padding: 2rem;
 }
 
 .icon {
   width: 48px;
   height: 48px;
   margin-bottom: 1rem;
+  color: var(--ifm-color-danger);
 }
