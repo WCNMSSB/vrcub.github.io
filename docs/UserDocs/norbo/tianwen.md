@@ -10,7 +10,7 @@ sidebar_label: 15.天文望远镜
 ## 标记星座
 
 手持望远镜，右键观察时按下鼠标中键，当望远镜外框变为紫色时按住并拖动连接星星，
-即可使用 /sga:name {name} 对当前进行命名
+即可使用 /sga:name name 对当前进行命名
 
 ![我是图片](/docs-img/tianwen_1_选中_dream_pep.png)
 
