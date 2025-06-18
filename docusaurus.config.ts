@@ -66,6 +66,14 @@ const config: Config = {
   ],
 
   themeConfig: {
+    announcementBar: {
+      id: 'docs-edite-1',
+      content:
+        '本文档部分内容仍处于编辑状态，遇到问题请到群内 @dream_pep 反馈，非常感谢你的理解！',
+      backgroundColor: '#0065d9',
+      textColor: '#ffffff',
+      isCloseable: false,
+    },
     // 替换为你的项目的社交卡片
     image: 'vrcub-logo/VRCub-white@svg.svg',
     navbar: {
