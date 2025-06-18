@@ -22,7 +22,7 @@ sidebar_label: 15.天文望远镜
 
 ## 分享星座
 
-使用命令 /sga:share constellations {name} 后聊天栏会弹出[点击分享]，
+使用命令 /sga:share constellations name 后聊天栏会弹出[点击分享]，
 
 ![我是图片](/docs-img/tianwen_5_dream_pep.png)
 
