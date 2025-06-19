@@ -5,7 +5,21 @@ title: 16.播放器 VideoPlayer
 sidebar_label: 16.播放器 VideoPlayer
 ---
 
+import Link from '@docusaurus/Link';
+
 # 播放器 VideoPlayer
+
+
+:::warning 关于模组的配备
+您如果还在使用老的客户端，你需要手动添加此模组
+
+点击下方链接下载
+
+（PS：遇到链接失效，请在群内 @dream_pep）
+<Link className="button button--secondary button--lg" href="https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/all/CnP9b2Le9oa0bmxkIT6cB8BYnEe/?mount_node_token=ML1tdW9ywoFYYpxfWZlcK7oRnDc&mount_point=docx_file" style={{ height: 47, marginBottom: 20}}>
+    下载 播放器 VideoPlayer 必要组件
+</Link>
+:::
 
 ## 有什么用？
 
