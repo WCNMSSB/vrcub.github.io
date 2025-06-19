@@ -5,18 +5,15 @@ title: 7.ZMusic/领地歌曲
 sidebar_label: 7.ZMusic/领地歌曲
 ---
 
+import Link from '@docusaurus/Link';
+
 # ZMusic
 
-:::warning
-**注意**：
-我们正在重构本片文档，请稍后查看
-:::
+:::warning 请自行查看官方wiki
 
-## 主命令
-/zm 主命令
-/zm help 查看帮助
-/zm play 播放音乐
-/zm music 全服点歌
-/zm search 搜索音乐
-/zm playlist 歌单系统
-/zm stop 停止播放
+由于插件内容变化频繁，请自行查看wiki内容
+
+<Link className="button button--secondary button--lg" href="https://zmusic.zhenxin.me/v2/#%E5%91%BD%E4%BB%A4-4" style={{ height: 47, marginBottom: 20}}>
+    查看wiki
+</Link>
+:::
